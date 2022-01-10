@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">  
-  <modelVersion>4.0.0</modelVersion>  
-  <groupId>org.springframework.samples</groupId>  
-  <artifactId>spring-petclinic</artifactId>  
-  <version>2.4.0.BUILD-SNAPSHOT</version>  
+  <modelVersion>4.0.1</modelVersion>  
+  <groupId>org.springframework.samplesAZDO</groupId>  
+  <artifactId>spring-petclinicAZDO</artifactId>  
+  <version>2.4.0.BUILD-SNAPSHOTAZO</version>  
   <parent> 
     <groupId>org.springframework.boot</groupId>  
     <artifactId>spring-boot-starter-parent</artifactId>  
     <version>2.4.0</version> 
   </parent>  
-  <name>petclinic</name>  
+  <name>petclinicAZDO</name>  
   <properties> 
     <!-- Generic properties -->  
     <java.version>1.8</java.version>  
@@ -33,7 +33,7 @@
     </dependency>  
     <dependency> 
       <groupId>org.springframework.boot</groupId>  
-      <artifactId>spring-boot-starter-cache</artifactId> 
+      <artifactId>sprinig-boot-starter</artifactId> 
     </dependency>  
     <dependency> 
       <groupId>org.springframework.boot</groupId>  
@@ -137,7 +137,7 @@
               </resource> 
             </resources> 
           </deployment>  
-          <region>westeurope</region>  
+          <region>northeurope</region>  
           <pricingTier>P1v2</pricingTier> 
         </configuration> 
       </plugin>  
