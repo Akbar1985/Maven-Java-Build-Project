@@ -3,14 +3,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">  
   <modelVersion>4.0.1</modelVersion>  
   <groupId>org.springframework.samplesAZDO</groupId>  
-  <artifactId>spring-petclinicAZDO</artifactId>  
+  <artifactId>spring-petclinicAZDOBatch10</artifactId>  
   <version>2.4.0.BUILD-SNAPSHOTAZO</version>  
   <parent> 
     <groupId>org.springframework.boot</groupId>  
     <artifactId>spring-boot-starter-parent</artifactId>  
-    <version>2.4.0</version> 
+    <version>2.5.0</version> 
   </parent>  
-  <name>petclinicAZDO</name>  
+  <name>petclinicAZDOBatch10</name>  
   <properties> 
     <!-- Generic properties -->  
     <java.version>1.8</java.version>  
@@ -85,7 +85,7 @@
     <!-- webjars -->  
     <dependency> 
       <groupId>org.webjars</groupId>  
-      <artifactId>webjars-locator-core</artifactId> 
+      <artifactId>webjars-locator-core-azdo</artifactId> 
     </dependency>  
     <dependency> 
       <groupId>org.webjars</groupId>  
@@ -149,7 +149,7 @@
           <execution> 
             <phase>validate</phase>  
             <goals> 
-              <goal>validate</goal> 
+              <goal>validate clean</goal> 
             </goals> 
           </execution> 
         </executions> 
