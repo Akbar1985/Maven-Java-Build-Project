@@ -10,7 +10,7 @@
     <artifactId>spring-boot-starter-parent</artifactId>  
     <version>2.5.0</version> 
   </parent>  
-  <name>petclinicAZDOBatch10</name>  
+  <name>petclinicAkbar</name>  
   <properties> 
     <!-- Generic properties -->  
     <java.version>1.8</java.version>  
